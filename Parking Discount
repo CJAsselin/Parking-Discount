@@ -1,0 +1,17 @@
+#getting input from user
+hours = float(input('Enter the hours parked:'))
+couponType = input('Enter discount coupon code ($=dollar off, %=percent off, f=flat rate): ')
+
+#processing
+baseCharge = 5 + 2.5 * hours
+
+#apply coupon
+if couponType == '$':
+    charge = baseCharge - 2
+elif couponType == '%':
+    charge = baseCharge * 0.8
+elif couponType == 'f':
+    charge = 20
+
+#output
+print('parking fee: $', format(charge, '.2f'))
