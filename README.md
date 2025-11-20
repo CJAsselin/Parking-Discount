@@ -1,1 +1,1 @@
-# Parking-Discount
+This program was run in order to see which type of coupon would be more effective depending on the time the user was parked in the garage. There were three variants of the coupon, one being money off, one being a percentage off, and one being a flat rate. We went through and found what would be the best coupon depending on the time spent.
